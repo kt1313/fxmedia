@@ -1,8 +1,8 @@
-module fxmodules {
+module fxmedia {
+    requires javafx.media;
     requires javafx.fxml;
     requires javafx.controls;
-    requires javafx.media;
 
-    exports pl.javastart.fxmedia to javafx.media;
+    exports pl.javastart.fxmedia to javafx.graphics;
     opens pl.javastart.fxmedia to javafx.fxml;
 }
