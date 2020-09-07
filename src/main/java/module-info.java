@@ -3,6 +3,6 @@ module fxmodules {
     requires javafx.controls;
     requires javafx.media;
 
-    exports pl.javastart.fxmedia to javafx.graphics, javafx.media;
+    exports pl.javastart.fxmedia to javafx.media;
     opens pl.javastart.fxmedia to javafx.fxml;
 }
