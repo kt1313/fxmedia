@@ -9,8 +9,8 @@
    <children>
       <VBox alignment="BOTTOM_CENTER">
          <children>
-            <MediaView id="mediaView" fx:id="mediaView" />
-            <Button id="pausePlayButton" fx:id="pausePlayButton" mnemonicParsing="false" text="Pause/Play" />
+            <MediaView id="mediaView" fx:id="mediaView" fitHeight="240.0" fitWidth="320.0" />
+            <Button id="pausePlayButton" fx:id="pausePlayButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Pause/Play" />
          </children>
       </VBox>
    </children>
